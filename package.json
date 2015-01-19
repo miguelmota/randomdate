@@ -1,0 +1,42 @@
+{
+  "name": "randomdate",
+  "version": "0.0.1",
+  "description": "Generate a random date within a date range",
+  "main": "randomdate.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/randomdate"
+  },
+  "keywords": [
+    "random",
+    "date"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/randomdate/issues"
+  },
+  "homepage": "https://github.com/miguelmota/randomdate",
+  "dependencies": {
+    "tape": "^3.0.3"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}

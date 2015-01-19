@@ -1,0 +1,22 @@
+{
+  "name": "randomdate",
+  "main": "randomdate.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/randomdate",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Generate a random date within a date range",
+  "keywords": [
+    "random",
+    "date"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
